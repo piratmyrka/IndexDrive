@@ -58,7 +58,7 @@
     transform: scale(1.2, 1.2);
   }
 .doverie{
-    background-image: url(images/cars/audi.jpg);
+    background:url(images/cars/audi.jpg);
     height: 500px;
     background-size: cover;
     
@@ -85,7 +85,7 @@
   .search{
     color: white;
     text-align: center;
-    background-image: url(images/cars/porsche.jpeg);
+    background: url(images/cars/porsche.jpeg);
     background-size: cover;
     height: 500px;
   }
