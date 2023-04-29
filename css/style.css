@@ -1,0 +1,91 @@
+:root {
+    --font1: "Open Sans", sans-serif;
+    --font2: "Raleway", sans-serif;
+    --color_black: black;
+    --color_accent: #ff8b38;
+    --color_gray: #cccccc;
+    --color_white: white;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: var(--font2);
+  }
+  
+  * a {
+    text-decoration: none;
+    color: var(--color_white);
+  }
+  
+  section.head {
+    padding: 0 10%;
+  }
+  
+  header {
+    background-color: rgb(95, 94, 104);
+    color: var(--color_white);
+  }
+  
+  header section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+  
+  header .logo img {
+ width: 100px;
+  }
+  
+  
+  header nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+  }
+  
+  header nav ul a {
+    color: var(--color_gray);
+    display: block;
+    transition: all 0.6s ease;
+    text-align: center;
+  }
+  
+  header nav ul a:hover {
+    color: var(--color_black);
+    transform: scale(1.2, 1.2);
+  }
+.doverie{
+    background-image: url(/images/cars/audi.jpg);
+    height: 500px;
+    background-size: cover;
+    
+}
+.company h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+  }
+  .tables p{
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px;
+  }
+  .tables{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+  .search{
+    color: white;
+    text-align: center;
+    background-image: url(/images/cars/porsche.jpeg);
+    background-size: cover;
+    height: 500px;
+  }
